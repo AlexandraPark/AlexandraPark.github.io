@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^https://alexandrapark\.github\.io/$ [NC]
+
+RewriteRule ^(.*)$ http://ladyhokageblake\.com/$1 [R=301,L]

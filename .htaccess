@@ -1,5 +1,5 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} https://alexandrapark.github.io/
+RewriteCond %{HTTP_HOST} alexandrapark.github.io/
 
 RewriteRule (.*) http://ladyhokageblake.com//$1 [R=301,L]
